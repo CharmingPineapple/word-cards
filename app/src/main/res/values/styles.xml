@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="plain_trans">
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:backgroundTint">@color/black</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="plain_desc">
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:backgroundTint">@color/black</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TV_game_result">
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+</resources>

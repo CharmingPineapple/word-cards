@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <Spinner
+                android:id="@+id/id_spin_st_category"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Spinner
+                android:id="@+id/id_spin_custom_category"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="5dp"
+                app:layout_constraintStart_toEndOf="@+id/id_spin_st_category"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/id_IV_edit_card"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                app:layout_constraintEnd_toStartOf="@+id/id_IV_delete_card"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/id_IV_delete_card"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+        <EditText
+            android:id="@+id/id_ET_foreign_word"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="@string/foreign_word"
+            android:inputType="textPersonName"
+            android:textSize="24sp"
+            android:backgroundTint="@color/black"
+            android:textColorHint="@color/gray"
+            android:textColor="@color/black" />
+
+
+        <EditText
+            android:id="@+id/id_ET_translate_1"
+            style="@style/plain_trans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="13"
+            android:hint="@string/translate"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/id_ET_translate_2"
+            style="@style/plain_trans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="13"
+            android:hint="@string/translate"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/id_ET_translate_3"
+            style="@style/plain_trans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="13"
+            android:hint="@string/translate"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/id_ET_translate_4"
+            style="@style/plain_trans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="13"
+            android:hint="@string/translate"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/id_ET_translate_5"
+            style="@style/plain_trans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="13"
+            android:hint="@string/translate"
+            android:inputType="textPersonName" />
+
+        <!--Добавить паттерн айтемов в этот RecyclerView (ниже едит текст - айтем)
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/id_RV_translates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </androidx.recyclerview.widget.RecyclerView>-->
+
+        <!--<ImageView
+            android:id="@+id/id_IV_add_translate"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/add_icon"
+            android:layout_marginLeft="20dp"/>-->
+
+
+        <!--<EditText
+            android:id="@+id/editTextTextPersonName6"
+            style="@style/plain_views"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/translate5"
+            android:inputType="textPersonName" />-->
+
+        <EditText
+            android:id="@+id/id_ET_description"
+            style="@style/plain_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/description"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:id="@+id/id_card_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="8dp"
+            android:text="id_of_BD"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/id_card_position"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="8dp"
+            android:text="card_position"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
