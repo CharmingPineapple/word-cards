@@ -2,6 +2,7 @@
 personal dictionary in cards. There is a game for repeating words and the possibility of dividing cards into categories.
 
 1. Home
+
 ![word-cards-1](https://github.com/CharmingPineapple/word-cards/assets/79319426/97d8d5e4-48ea-4eea-a130-9468be91b956)
 
 2. Add new card
