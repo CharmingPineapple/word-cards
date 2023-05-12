@@ -17,7 +17,7 @@ personal dictionary in cards. There is a game for repeating words and the possib
 <img src="https://github.com/CharmingPineapple/word-cards/assets/79319426/90b421c3-20ca-448c-b237-c7c6e5449b68" width="300" height="540" />
 
 6. Checking card in categories <br>
-<img src="https://github.com/CharmingPineapple/word-cards/assets/79319426/aa2c452b-78e3-48ae-b6e0-7caaf6cf0941) <br>
+<img src="https://github.com/CharmingPineapple/word-cards/assets/79319426/aa2c452b-78e3-48ae-b6e0-7caaf6cf0941" width="300" height="540" /> <br>
 <img src="https://github.com/CharmingPineapple/word-cards/assets/79319426/e084074a-82f2-41dc-bce1-5b4c8d1815ab" width="300" height="540" />
 
 7. Repetition Game <br>
